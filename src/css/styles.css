@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.container {
+  background-color: antiquewhite;
+  height: 250px;
+  width: 450px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+}
+
+#output {
+  font-size: 30px;
+  text-align: center;
+}
+
+#date {
+  font-size: 30px;
+  text-align: center;
+}
